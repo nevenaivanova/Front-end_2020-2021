@@ -1,0 +1,133 @@
+body {
+    background-image: linear-gradient(-100deg, #a2f2f1 0%, #b19afe 100%);
+    font-size: 16px;
+}
+
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+.content {
+    background-color:#ffffff;
+    margin-left: -16rem;
+    margin-top: -16rem;
+    border-radius: 0.5em;
+    position: absolute;
+    max-width: 32rem;
+    width: 90%;
+    height: 31rem;
+    top: 50%;
+    left: 50%;
+
+}
+
+main {
+    font-size: 2.5rem;
+    padding: 2.5rem;
+    width: 27rem;
+    height: 27rem;
+    position: absolute;
+}
+
+.header {
+    position: relative;
+    color: #323232;
+}
+
+.login-header {
+    font-size: 1.7rem;
+    color: #838592;
+    margin-top: 0.6em;
+    position: relative;
+}
+
+.fields {
+    margin-top: 1.1em;
+    position: relative;
+    color: blue;
+}
+
+input {
+    font-size: 15px;
+    width: 28.5em;
+    padding: 1em 0px;
+    
+}
+
+.username{
+    border-left-style: hidden;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: groove;
+    border-bottom-color: #b4bbf2; 
+    border-bottom-width: 0.15em;
+}
+
+.email {
+    border-left-style: hidden;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: groove;
+    border-bottom-color: #b4bbf2;
+    border-bottom-width: 0.15em;
+}
+
+.password {
+    border-left-style: hidden;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: groove;
+    border-bottom-color: #bbc0ec;
+    border-bottom-width: 0.1em;
+}
+
+.button {
+    position: relative;
+    background-color: #54bdd6;
+    border-radius: 1.25em;
+    max-width: 10rem;
+    width: 100%;
+    height: 2.3em;
+    font-size: 17px;
+    margin-top: 4em;
+    margin-left: 16em;
+    color: #ffffff;
+    border: none;
+}
+
+.footer {
+    position: absolute;
+    font-size: 17px;
+    margin-left: 15em;
+    margin-top: 0.9em;
+}
+
+.footer li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+@media (max-width: 890px) {
+    .content{
+        padding: 0em 1em;
+        max-width: 24em;
+        margin-left: -12.5em;
+    }
+
+    input{
+        width: 20em;
+    }
+
+    .button{
+        margin-left: 8.5em;
+    }
+
+    .footer{
+        margin-left: 7.5em;
+    }
+}
+
